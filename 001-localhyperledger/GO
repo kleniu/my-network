@@ -1,2 +1,3 @@
+# mkdir ~/.composer-connection-profiles/myprofile/
 # cp connection.json ~/.composer-connection-profiles/myprofile/.
 # docker-compose up -d

@@ -1,2 +1,4 @@
 # composer archive create --archiveFile my-network.bna --sourceType dir --sourceName .
 # composer network deploy --archiveFile my-network.bna --connectionProfileName myprofile --enrollId admin --enrollSecret Xurw3yU9zI0l
+# check
+# composer network ping -n my-network -p myprofile -i admin -s Xurw3yU9zI0l
