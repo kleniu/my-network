@@ -1,0 +1,2 @@
+# composer archive create --archiveFile my-network.bna --sourceType dir --sourceName .
+# composer network deploy --archiveFile my-network.bna --connectionProfileName myprofile --enrollId admin --enrollSecret Xurw3yU9zI0l

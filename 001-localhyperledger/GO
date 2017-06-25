@@ -1,0 +1,2 @@
+# cp connection.json ~/.composer-connection-profiles/myprofile/.
+# docker-compose up -d
