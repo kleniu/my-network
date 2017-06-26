@@ -1,0 +1,7 @@
+### run Rest API server as <user>
+# composer-rest-server -p myprofile -n my-network -i trader1 -s QmKXyiqAeEmC -N never
+## or
+# composer-rest-server -p myprofile -n my-network -i trader2 -s AkusvOhzOlEp -N never
+
+### run Rest API server as admin
+# composer-rest-server -p myprofile -n my-network -i admin -s Xurw3yU9zI0l -N never

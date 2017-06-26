@@ -5,7 +5,6 @@ namespace org.acme.mynetwork
 asset Commodity identified by tradingSymbol {
     o String tradingSymbol
     o String description
-    o String mainExchange
     o Double quantity
     --> Trader owner
 }

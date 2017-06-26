@@ -1,0 +1,32 @@
+### create participants
+
+# composer participant add -p myprofile -n my-network -i admin -s Xurw3yU9zI0l -d '{"$class":"org.acme.mynetwork.Trader","tradeId":"TRADER1","firstName":"FN TRADER1","lastName":"LN TRADE1"}'
+
+# composer participant add -p myprofile -n my-network -i admin -s Xurw3yU9zI0l -d '{"$class":"org.acme.mynetwork.Trader","tradeId":"TRADER2","firstName":"FN TRADER2","lastName":"LN TRADE2"}'
+
+
+
+### issue identity 
+
+# composer identity issue -p myprofile -n my-network -i admin -s Xurw3yU9zI0l -u trader1 -a "org.acme.mynetwork.Trader#TRADER1"
+An identity was issued to the participant 'org.acme.mynetwork.Trader#TRADER1'
+The participant can now connect to the business network with the following details:
+  userID = trader1
+  userSecret = QmKXyiqAeEmC
+Command completed successfully.
+
+
+# composer identity issue -p myprofile -n my-network -i admin -s Xurw3yU9zI0l -u trader2 -a "org.acme.mynetwork.Trader#TRADER2"
+An identity was issued to the participant 'org.acme.mynetwork.Trader#TRADER2'
+The participant can now connect to the business network with the following details:
+  userID = trader2
+  userSecret = AkusvOhzOlEp
+Command completed successfully.
+
+
+
+### check
+# composer network ping -p myprofile -n my-network -i trader1 -s QmKXyiqAeEmC
+# composer network ping -p myprofile -n my-network -i trader2 -s AkusvOhzOlEp
+
+
