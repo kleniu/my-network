@@ -3,21 +3,15 @@
 
 ### pull docker images
 # docker pull hyperledger/fabric-baseimage:x86_64-0.1.0
-# docker tag hyperledger/fabric-baseimage:x86_64-0.1.0 hyperledger/fabric-baseim
-age:latest
+# docker tag hyperledger/fabric-baseimage:x86_64-0.1.0 hyperledger/fabric-baseimage:latest
 # docker pull hyperledger/fabric-peer:latest
 # docker pull hyperledger/fabric-membersrvc:latest
 
 ### check
 # docker images
-REPOSITORY                      TAG                 IMAGE ID            CREATED 
-            SIZE
-hyperledger/fabric-membersrvc   latest              b3654d32e4f9        8 months
- ago        1.42 GB
-hyperledger/fabric-peer         latest              21cb00fb27f4        8 months
- ago        1.42 GB
-hyperledger/fabric-baseimage    latest              db53d04b117c        9 months
- ago        1.39 GB
-hyperledger/fabric-baseimage    x86_64-0.1.0        db53d04b117c        9 months
- ago        1.39 GB
+REPOSITORY                      TAG                 IMAGE ID            CREATED 	    SIZE
+hyperledger/fabric-membersrvc   latest              b3654d32e4f9        8 months ago        1.42 GB
+hyperledger/fabric-peer         latest              21cb00fb27f4        8 months ago        1.42 GB
+hyperledger/fabric-baseimage    latest              db53d04b117c        9 months ago        1.39 GB
+hyperledger/fabric-baseimage    x86_64-0.1.0        db53d04b117c        9 months ago        1.39 GB
 

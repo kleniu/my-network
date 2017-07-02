@@ -1,0 +1,8 @@
+### setup connection to fabric
+# mkdir -p ~/.composer-connection-profiles/bluemix
+# cp connection.json ~/.composer-connection-profiles/bluemix/.
+## change <HOME> directory !!!!
+## change membershipServicesURL
+## change peerURL
+## change eventHubURL 
+# vi ~/.composer-connection-profiles/myprofile/connection.json
