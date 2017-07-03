@@ -15,3 +15,5 @@ hyperledger/fabric-peer         latest              21cb00fb27f4        8 months
 hyperledger/fabric-baseimage    latest              db53d04b117c        9 months ago        1.39 GB
 hyperledger/fabric-baseimage    x86_64-0.1.0        db53d04b117c        9 months ago        1.39 GB
 
+### Bluemix CLI install file
+# wget http://ftp.icap.cdl.ibm.com/OERuntime/BluemixCLIs/CliProvider/bluemix-cli/Bluemix_CLI_0.5.5_amd64.tar.gz
